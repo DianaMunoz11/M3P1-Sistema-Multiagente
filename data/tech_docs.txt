@@ -1,0 +1,20 @@
+### Política de Acceso a VPN
+Todos los colaboradores deben conectarse a la VPN corporativa al acceder a sistemas internos desde fuera de la oficina. Las credenciales se solicitan al equipo de IT mediante ticket en el portal de soporte y expiran cada 90 días, requiriendo renovación mediante autenticación multifactor (MFA).
+
+### Procedimiento de Reseteo de Contraseña
+Para restablecer una contraseña corporativa, el usuario debe acceder al portal de autoservicio de IT, verificar su identidad con MFA y definir una nueva contraseña que cumpla la política de seguridad (mínimo 12 caracteres, mayúsculas, números y símbolos). Si el usuario no tiene acceso al portal, debe abrir un ticket con el Service Desk.
+
+### Estándares de Desarrollo de Software
+El equipo de Tecnología utiliza Git con la estrategia de ramas GitFlow. Todo cambio a producción requiere pull request revisado por al menos un par, pipeline de CI/CD en verde y aprobación del tech lead. El stack principal incluye Python, TypeScript, y despliegues en Kubernetes sobre AWS.
+
+### Política de Seguridad de la Información
+Está prohibido almacenar credenciales o información sensible en repositorios de código o en texto plano. Se debe usar el gestor de secretos corporativo (Vault). Todo incidente de seguridad debe reportarse de inmediato al equipo de InfoSec a través del canal de emergencia.
+
+### Soporte Técnico y Mesa de Ayuda
+El Service Desk atiende solicitudes de lunes a viernes de 8:00 a 20:00. Los incidentes críticos (caída de sistemas productivos) tienen un SLA de respuesta de 30 minutos; las solicitudes estándar (instalación de software, accesos) tienen un SLA de 24 horas hábiles.
+
+### Política de Equipos y Hardware
+Cada empleado recibe una laptop corporativa configurada por IT con las herramientas estándar preinstaladas. El hardware es propiedad de la empresa y debe devolverse al finalizar la relación laboral. Las solicitudes de hardware adicional (monitores, periféricos) se gestionan vía ticket con aprobación del manager.
+
+### Gestión de Accesos a Sistemas
+Los accesos a sistemas internos siguen el principio de mínimo privilegio y se otorgan según el rol del empleado. Las altas y bajas de accesos se automatizan a través del sistema de IAM y se auditan trimestralmente por el equipo de Seguridad.
